@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -73,7 +72,6 @@ export function JsonForm() {
                 <FormControl>
                   <Input placeholder="John Doe" {...field} />
                 </FormControl>
-                <FormDescription>This is your full name.</FormDescription>
                 <FormMessage />
               </FormItem>
             )}
@@ -91,7 +89,6 @@ export function JsonForm() {
                     {...field}
                   />
                 </FormControl>
-                <FormDescription>We'll never share your email.</FormDescription>
                 <FormMessage />
               </FormItem>
             )}
@@ -105,7 +102,6 @@ export function JsonForm() {
                 <FormControl>
                   <Textarea placeholder="Type your message here." {...field} />
                 </FormControl>
-                <FormDescription>Enter your message here.</FormDescription>
                 <FormMessage />
               </FormItem>
             )}
